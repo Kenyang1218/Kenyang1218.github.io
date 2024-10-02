@@ -11,6 +11,7 @@ group :jekyll_plugins do
     gem 'jekyll-link-attributes'
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
+    gem 'jekyll-polyglot'
     gem 'jekyll-regex-replace'
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
@@ -25,5 +26,5 @@ end
 group :other_plugins do
     gem 'css_parser'
     gem 'feedjira'
-    gem 'httparty'
+    gem 'httparty'   
 end

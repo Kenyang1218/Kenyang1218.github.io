@@ -55,7 +55,6 @@
               {% endif %}
             </a>
           </li>
-
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
@@ -108,6 +107,35 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          <!-- Toogle language -->
+          {% if site.languages.size >= 2 %}
+            {% if site.languages.size == 2 %}
+              {% if site.active_lang == site.languages.first %}
+                {% assign other_language = site.languages.last %}
+              {% else %}
+                {% assign other_language = site.languages.first %}
+              {% endif %}
+              <li class="nav-item active">
+                {% if site.active_lang == site.default_lang %}
+                  <a class="nav-link" {% static_href -%} href="{{ site.baseurl }}/{{ other_language }}{{ page.url }}" {%- endstatic_href %}>
+                    {% if site.country_flag %}
+                      <span class="fi fi-{{ other_language | split: "-" | last }}"></span>
+                    {% else %}
+                      {{ other_language | upcase }}
+                    {%- endif -%}
+                  </a>
+                {% else %}
+                  <a class="nav-link" {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %}>
+                    {% if site.country_flag %}
+                      <span class="fi fi-{{ site.default_lang | split: "-" | last }}"></span>
+                    {% else %}
+                      {{ site.default_lang | upcase }}
+                    {%- endif -%}
+                  </a>
+                {% endif %}
+              </li>
+            {% endif %}
+          {% endif %}
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
