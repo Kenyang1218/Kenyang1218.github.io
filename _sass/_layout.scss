@@ -1,20 +1,7 @@
 /******************************************************************************
  * Content
  ******************************************************************************/
- @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
 
-
-.noto-sans-tc {
-  font-family: "Noto Sans TC", sans-serif;
-  unicode-range: U+4E00-9FFF;
-}
-
-/* 定義英文使用 Roboto 字體 */
-.noto-sans-tce {
-  font-family: "Roboto", sans-serif;
-  unicode-range: U+00-024F;
-}
 
 
 body {
@@ -30,7 +17,8 @@ body {
   h6 {
     scroll-margin-top: 66px;
   }
-  font-family: 'noto-sans-tc','noto-sans-tce' ;
+  font-family: "Noto Sans TC"; /* 中文字體 */
+
 }
 
 body.fixed-top-nav {

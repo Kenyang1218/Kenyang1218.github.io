@@ -1,0 +1,87 @@
+
+- title: 基本資料
+  type: map
+  contents:
+    - name: 姓名
+      value: 楊竣凱
+    - name: 生日
+      value: 2000年12月18日
+    - name: 語言
+      value: 中文, 英文
+    - name: 聯絡方式
+      value: kenyang1218@gmail.com
+
+- title: 教育
+  type: time_table
+  contents:
+    - title: 碩士
+      institution: 國立中興大學
+      year: 2024-NOW
+      description:
+        - 目前於智慧輔助實驗室中就讀
+    - title: 學士
+      institution: 國立中興大學
+      year: 2018-2023
+      description:
+        - 畢業於國立中興大學
+
+- title: 經驗
+  type: time_table
+  contents:
+    - title: 機械設計與專題競賽
+      institution: 中興大學機械系
+      year: 2023-2024
+      description: 擔任機械設計與專題競賽助教
+    - title: 動力學助教
+      institution: 中興大學機械系
+      year: 2022-2023
+      description: 擔任動力學助教
+    - title: 社員
+      institution: 中興大學省油車
+      year: 2018 - 2019
+      description: 大學期間參與省油車競賽並學習機械加工
+
+- title: 開源專案
+  type: time_table
+  contents:
+    - title: 
+      year: 2023-now
+      description: 
+
+
+- title: 比賽經歷
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - 省由車競賽、專題競賽、誠泰比賽、運動科技競賽
+    - year: 2029
+      items:
+        - Max Planck Medal
+
+- title: 發表
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - 研討會三篇、期刊可能一篇 無人機計畫可以寫嗎?
+        - 
+    - year: 2029
+      items:
+        - Max Planck Medal
+
+- title: 技術與開發經驗
+  type: nested_list
+  contents:
+    - title: 深度學習
+      items:
+        - 人機迴路 ###周巧、兩個國防專案
+        - 情感辨識
+    - title: 人機迴路
+      items:
+        - 研究人與機器間的交互作用
+
+- title: 其他興趣
+  type: list
+  contents:
+    - <u>興趣:</u> 動植物養殖、健身、看書、嵌入式與軟體開發 

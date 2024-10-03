@@ -647,8 +647,10 @@ third_party_libraries:
 # -----------------------------------------------------------------------------
 
 jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+  - data: #resume_en
+    json: #assets/json/resume_en.json # it can also be an url  故意不打會跳到cv.yml
+  - data: #resume_cn  ##前面一定要加resume
+    json: #assets/json/resume_cn.json # it can also be an url  故意不打會跳到cv.yml
 jsonresume:
   - basics
   - work
