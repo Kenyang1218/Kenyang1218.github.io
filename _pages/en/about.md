@@ -18,5 +18,5 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a master stucghjcghjcghjcghjctudy in the [Intelligent Assistive System](https://nchuiaslab.wixsite.com/iaslab526).
+I am a master student in National Chung Hsing University.I research technology to assist humans.Study in the [Intelligent Assistive System](https://nchuiaslab.wixsite.com/iaslab526).
 
