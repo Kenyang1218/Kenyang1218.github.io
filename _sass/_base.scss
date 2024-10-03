@@ -192,13 +192,26 @@ ul.task-list input[type="checkbox"] {
 
 // Profile
 
+@font-face {
+  font-family: 'Mixed';
+  src: local('monospace');  ///monospace
+  unicode-range: U+00-024F;  //可以影響到layout.css位置
+}
+
+@font-face {
+  font-family: 'Mixed';
+  src: local('Noto Sans TC');
+  unicode-range: U+4E00-9FFF;
+}
+
+
 .profile {
   width: 100%;
 
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    font-family: Mixed;
 
     p {
       display: inline-block;
@@ -518,6 +531,7 @@ footer.sticky-bottom {
   h1 {
     color: var(--global-theme-color);
     font-size: 5rem;
+    font-family: "Mixed" ;
   }
 }
 

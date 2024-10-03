@@ -456,6 +456,9 @@ enable_video_embedding: false # enables video embedding for bibtex entries. If f
 # Library versions
 # -----------------------------------------------------------------------------
 
+#"https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900
+#"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+
 # Add the url, version and integrity hash of the libraries you use in your site.
 # The integrity hash is used to ensure that the library is not tampered with.
 # Integrity hashes not provided by the libraries were generated using https://www.srihash.org/
@@ -501,7 +504,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Noto+Sans+TC:wght@100..900|Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:
